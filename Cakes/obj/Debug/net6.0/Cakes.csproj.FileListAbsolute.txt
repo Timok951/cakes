@@ -1,0 +1,15 @@
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\Cakes.csproj.AssemblyReference.cache
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\Cakes.GeneratedMSBuildEditorConfig.editorconfig
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\Cakes.AssemblyInfoInputs.cache
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\Cakes.AssemblyInfo.cs
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\Cakes.csproj.CoreCompileInputs.cache
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\bin\Debug\net6.0\Cakes.exe
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\bin\Debug\net6.0\Cakes.deps.json
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\bin\Debug\net6.0\Cakes.runtimeconfig.json
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\bin\Debug\net6.0\Cakes.dll
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\bin\Debug\net6.0\Cakes.pdb
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\Cakes.dll
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\refint\Cakes.dll
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\Cakes.pdb
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\Cakes.genruntimeconfig.cache
+H:\П50-4-22\Программирование\C#\Homework\Cakes\Cakes\obj\Debug\net6.0\ref\Cakes.dll
