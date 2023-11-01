@@ -1,108 +1,97 @@
-﻿namespace Cakes
+﻿using static Cakes.Underorder;
+
+namespace Cakes
 {
-    class undermenue
+    internal class Underorder
     {
-        string description;
-        int cost;
+        public string description;
+        public int costing;
+
+        public Underorder(string desc, int cost) {
+            description=desc;
+            costing = cost;
+
+    }
+       
    
 
     }
 
-    class order
-    {
-
-        public void show()
-        {
-            
-
-            Console.WriteLine("--Кондитерская Cakes from yuour dreams---");
-            Console.WriteLine("  Форма");
-            Console.WriteLine("  Размер");
-            Console.WriteLine("  Вкус");
-            Console.WriteLine("  Колличество");
-            Console.WriteLine("  Глазурь");
-            Console.WriteLine("  Декор");
-            Console.WriteLine("  Выход");
-
-
-
-        }
-        public void underchoice(int pos)
-        {
-            undermenue undermenue = new undermenue();
-
-                if (pos == 1)
-                {
-
-                Console.Clear();
-                Console.WriteLine("  Круглая");
-                Console.WriteLine("  Квадратная");
-                Console.WriteLine("  Прямоугольная");
-
-
-            }
-                else if (pos == 2)
-
-                {
-                Console.Clear();
-                Console.WriteLine("  Большой");
-                Console.WriteLine("  Маленький");
-                Console.WriteLine("  Средний");
-            }
-
-                else if (pos == 3)
-
-                {
-                Console.Clear();
-                Console.WriteLine("  Клубничный");
-                Console.WriteLine("  Банановый");
-                Console.WriteLine("  Ванильный");
-            }
-
-                else if (pos == 4)
-
-                {
-                Console.Clear();
-                Console.WriteLine("  Много");
-                Console.WriteLine("  Очень много");
-                Console.WriteLine("  Мало");
-
-            }
-
-            else if (pos == 5)
-
-                {
-                Console.Clear();
-                Console.WriteLine("  Молочная");
-                Console.WriteLine("  Шоколадная");
-            }
-
-                else if (pos == 6)
-
-                {
-                Console.Clear();
-                Console.WriteLine("  Цветы");
-                Console.WriteLine("  Клубника");
-
-            }
-
-
-        } 
-
-
-
-    }
+    
 
 
     internal class Program
     {
+        static List<Underorder> UnderorderList = new List<Underorder>();
+
+        class order
+        {
+
+            public void show()
+            {
+
+
+                Console.WriteLine("--Кондитерская Cakes from yuour dreams---");
+                Console.WriteLine("  Форма");
+                Console.WriteLine("  Размер");
+                Console.WriteLine("  Вкус");
+                Console.WriteLine("  Колличество");
+                Console.WriteLine("  Глазурь");
+                Console.WriteLine("  Декор");
+                Console.WriteLine("  Выход");
+
+
+
+            }
+            public void underchoice()
+            {
+                Console.Clear();
+                Console.WriteLine();
+                foreach (Underorder pos in UnderorderList)
+                {
+                    Console.WriteLine("  " + pos.description +" "+pos.costing);
+
+                }
+
+
+
+            }
+
+
+
+        }
+
         static void Main(string[] args)
         {
+
+
+            Underorder circle = new Underorder("Круглый", 500);
+            UnderorderList.Add(circle);
+            Underorder  square = new Underorder("Квадратный", 450);
+            UnderorderList.Add(square);
+            Underorder triangle = new Underorder("Треугольный", 400);
+            UnderorderList.Add(triangle);
+            Underorder rectangular = new Underorder("Прямоуглольный", 400);           
+            UnderorderList.Add(rectangular);
+
+            
+            Console.Clear();
             order order = new order();
             order.show();
-            int pos = Menue.Show(1, 7);
-            
-            order.underchoice(pos);
+            Menue.Show(1, 7);
+            order.underchoice();
+            Menue.Show(1, 4);
+
+
+
+
+            //Underorder circle = new Underorder();
+            //circle.desc = "";
+
+            //Underorder.Add(desc);
+
+
+
 
 
         }
