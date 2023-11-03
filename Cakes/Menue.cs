@@ -40,7 +40,8 @@ namespace Cakes
 
                 }
 
-            } while (key.Key != ConsoleKey.Enter);
+
+            } while (key.Key != ConsoleKey.Enter && key.Key  != ConsoleKey.Escape);
 
             return pos;
 
